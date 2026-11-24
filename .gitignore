@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Raw data
+data/raw/ozon/*
+!data/raw/ozon/.gitkeep
+data/raw/wildberries/*
+!data/raw/wildberries/.gitkeep
+
+# Processed data
+data/staging/*
+data/warehouse/*
+data/marts/*
